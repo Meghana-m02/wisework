@@ -1,0 +1,69 @@
+body {
+    background-image:url("climatess.jpeg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 1250px;
+    font-family: "Roboto", sans-serif;
+}
+
+*{
+    margin: 0px;
+    padding: 10px;
+}
+.container{
+    margin: auto;
+    width: 500px;
+    max-width: 90%;
+    
+    
+}
+.container form{
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+    background: white;
+    border-radius: 15px;
+    box-shadow: 0 8px 16px rgba(0,0,0,.3);
+}
+
+.container form h1{
+    text-align: center;
+    margin-bottom: 24px;
+    color: black;
+}
+
+.container form .form-control{
+    width: 100%;
+    height: 40px;
+    background: white;
+    border-radius: 4px;
+    border: 1px solid silver;
+    margin: 10px 0 18px 0;
+    padding: 0 10px;
+}
+.container form .btn{
+ 
+    transform: translateX(10%);
+    width: 120px;
+    height: 34px;
+    border: none;
+    outline: none;
+    background: #49c1a2;
+    cursor: pointer;
+    font-size: 16px;
+    text-transform: uppercase;
+    color: white;
+    border-radius: 4px;
+    /* transition: .3s; */
+}
+
+.container form .bt:hover{
+    opacity: .7;
+}
+.col{
+    width: 85%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+

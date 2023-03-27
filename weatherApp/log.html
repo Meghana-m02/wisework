@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="log.css">
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js" integrity="sha256-oP6HI9z1XaZNBrJURtCoUT5SUnxFr8s3BzRl+cbzUq8=" crossorigin="anonymous"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>log in</title>
+</head>
+
+<body>
+    <div class="container">
+    <form onsubmit="return false">
+        <h1> LOG IN </h1>
+
+        <!-- Email input -->
+        <div class="form-outline mb-4">
+            <label class="form-label" for="form1Example1">Email address</label>
+            <input type="email" id="form1Example1" class="form-control" />
+        </div>
+      
+        <!-- Password input -->
+        <div class="form-outline mb-4">
+            <label class="form-label" for="form1Example2">Password</label>
+            <input type="password" id="form1Example2" class="form-control" />
+        </div>
+
+       <!-- Login button -->
+        <button type="submit" id="sublogin" class="btn btn-primary btn-block">Login</button>
+
+        <!-- 2 column grid layout for inline styling -->
+        <div class="row mb-4">
+          
+      
+          <div class="col">
+           
+            <p>don't have an account?</p><button  class="btn btn-primary btn-block" ><a style="text-decoration: none;color: white;" href="sign.html">Sign in</a></a></button>
+          </div>
+
+
+        </div>
+      
+      
+       
+      </form>
+    </div>
+    <script src="log.js"></script>
+</body>
+</html>
